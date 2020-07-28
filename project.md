@@ -29,9 +29,3 @@ Your application must be deployed to Heroku and use Amazon S3 to store images. Y
 
 - [How to Setup Amazon S3 in a Django project](https://simpleisbetterthancomplex.com/tutorial/2017/08/01/how-to-setup-amazon-s3-in-a-django-project.html) - This article is from 2017, and not 100% accurate any more, but is the best around.
 
-- New project starting tomorrow:
-    - Photo gallery
-        - Tools
-            - 
-        - "Folders" (public/private)
-        - Photos (with data/EXIM data?)
