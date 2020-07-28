@@ -6,6 +6,7 @@ For this project, you are going to build a photo gallery application in Django. 
     - **Idea**: Consider social login via [django-allauth](https://www.intenct.nl/projects/django-allauth/)
 - Users can create photo galleries
     - These galleries have a title and photos within them
+    - These galleries have a default photo -- the photo shown when looking at galleries
     - **Idea**: Make public and private galleries
     - **Idea**: Can galleries be shared so that multiple users can add photos to them?
 - Users can upload photos
