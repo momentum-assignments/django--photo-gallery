@@ -11,14 +11,14 @@ For this project, you are going to build a photo gallery application in Django. 
     - **Idea**: Can galleries be shared so that multiple users can add photos to them?
 - Users can upload photos
     - Consider whether photos need to be in a gallery or not. Can they be in multiple galleries? These are questions you need to answer.
-    - Photos should have thumbnails. Look at [Django-Imagekit](https://github.com/matthewwithanm/django-imagekit) or [DjangoVersatileImagefield](https://github.com/respondcreate/django-versatileimagefield). Make a choice between these two libraries
+    - Photos should have thumbnails. Look at [Django-Imagekit](https://github.com/matthewwithanm/django-imagekit) and see if it will work for your needs.
 - Users have profiles where you can see their galleries
     - If you have public and private galleries, then don't show private galleries
     - What if you can have pictures not in galleries? How does that work?
     - This doesn't have to look like a list of galleries. This could be a series of updates, Facebook-style, for example.
     - **Idea**: Users can _pin_ or _spotlight_ photos or galleries to appear first.
 - Users can leave comments on photos
-	- When a user leaves a comment, the owner of the photo should get an email notifying them of that comment. (**Idea**: perhaps you don't get the email if you are both the owner and wrote the comment.)
+    - When a user leaves a comment, the owner of the photo should get an email notifying them of that comment. (**Idea**: perhaps you don't get the email if you are both the owner and wrote the comment.)
 - There is an API to interact with galleries and photos. This can be read-only or read-write.
 
 In addition to these features, it is required that your application has a front-end to interact with it. This can be wholly Django views, Django views + JavaScript to enhance them (most likely), or wholly JavaScript + an API in Django.
